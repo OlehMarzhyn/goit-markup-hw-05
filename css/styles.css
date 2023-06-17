@@ -837,7 +837,7 @@ Letter spacing: 4%;
 }
 .checkbox-svg {
 }
-.checkbox-input:checked {
+.checkbox-input:checked + .checkbox-label > .checkbox-label-span {
   border: none;
   background-color: var(--modal-check);
   fill: var(--footer-text);
